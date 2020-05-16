@@ -21,9 +21,7 @@ setuptools.setup(
     description='Base class for the development of a Python web API. ',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
-    install_requires=[
-        'requests==2.23.0'
-    ],
+    install_requires=['requests==2.23.0'],
     packages=setuptools.find_packages(exclude=['tests', 'tests.*']),
     python_requires='>=3.7.5',
     classifiers=[
